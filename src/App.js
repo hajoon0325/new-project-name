@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Hello />
         <p>
-          교수님살려주세요 <code>src/App.js</code> and save to reload.
+          뉴모노울트라마이크로스코픽실리코볼케이노코니오시스 <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
